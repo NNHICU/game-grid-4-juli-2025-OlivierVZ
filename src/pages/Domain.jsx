@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import {Col, Row, Form, Card} from "react-bootstrap";
 import React from "react";
 import Icon from '@mdi/react';
-import { mdiShipWheel, mdiCurrencyUsd, mdiClipboardList   } from '@mdi/js';
+import { mdiShipWheel, mdiCurrencyUsd, mdiClipboardList } from '@mdi/js';
 
 const Domain = () => {
     return (
@@ -13,15 +13,18 @@ const Domain = () => {
                         <div className="text-center">
                             <h1 className="custom-font-size mb-4">
                                 <span className="fw-bold text-secondary">Registreer</span><br/>
-                                <span className="text-primary fw-bold"> jouw Domain</span>
+                                <span className="text-primary fw-bold">jouw Domain</span>
                             </h1>
-                            <p className="text-dark custom-width mx-auto">Dns-beheer, veel beschikbare TLD's en geweldige ondersteuning</p>
+                            <p className="text-dark custom-width mx-auto">
+                                Dns-beheer, veel beschikbare TLD's en geweldige ondersteuning
+                            </p>
 
                             <Form className="mt-4">
                                 <Form.Control
                                     type="text"
-                                    placeholder="registreer een domein naam..."
+                                    placeholder="registreer een domeinnaam..."
                                     className="mx-auto custom-width"
+                                    aria-label="Zoek jouw domeinnaam"
                                 />
                             </Form>
                         </div>
@@ -32,13 +35,12 @@ const Domain = () => {
                         <Card className="h-100 p-2">
                             <Card.Body>
                                 <Card.Title className='fw-bold'>Dns beheer</Card.Title>
-                               <div className='d-flex flex-row align-items-center'>
-                                   <Icon path={mdiShipWheel} size={3} color="#ffb900" />
-                                   <Card.Text>
-                                       Eerlijke en stabiele prijzen. Kies uit onze uitgebreide lijst met TLD's.
-                                   </Card.Text>
-                               </div>
-
+                                <div className='d-flex flex-row align-items-center'>
+                                    <Icon path={mdiShipWheel} size={3} color="#ffb900" />
+                                    <Card.Text>
+                                        Eerlijke en stabiele prijzen. Kies uit onze uitgebreide lijst met TLD's.
+                                    </Card.Text>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -65,7 +67,6 @@ const Domain = () => {
                                         Eerlijke en stabiele prijzen. Kies uit onze uitgebreide lijst met TLD's.
                                     </Card.Text>
                                 </div>
-
                             </Card.Body>
                         </Card>
                     </Col>

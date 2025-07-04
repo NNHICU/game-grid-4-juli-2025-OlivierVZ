@@ -15,7 +15,7 @@ const HostingOptions = () => {
                             <Button variant="outline-secondary">Bestel jouw server →</Button>
                         </Card.Body>
                         <Card.Footer className="bg-white border-0">
-                            <Card.Img src="/media/minecraft.webp" style={{ maxHeight: '150px', objectFit: 'contain' }} />
+                            <Card.Img src="/media/minecraft.webp" alt="afbeelding van steve en alex van minecraft" style={{ maxHeight: '150px', objectFit: 'contain' }} />
                         </Card.Footer>
                     </Card>
                 </Col>

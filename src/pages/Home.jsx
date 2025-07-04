@@ -43,7 +43,7 @@ const Home = () => {
                         <Image
                             fluid
                             src="/media/screen1.png"
-                            alt="screen 1"
+                            alt="Een afbeelding van het controle paneel van de vps"
                         />
 
                     </Col>
@@ -55,7 +55,7 @@ const Home = () => {
                         <Image
                             fluid
                             src="/media/screen2.png"
-                            alt="screen 2"
+                            alt="een afbeelding van het contnrole paneel"
                         />
                     </Col>
                     <Col md={5}>
